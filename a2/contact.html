@@ -1,0 +1,68 @@
+<!--Author Name: Shehzad Rashid Chowdhury-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>100SMILES Dental Care - Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header class="header">
+            <nav class="navbar">
+                <a href="index.html" class="logo-container" id="logo-container">
+                    <img src="Images and Staff/AdobeStock_261497775.jpeg" class="logo">
+                </a>
+                <div class="brand-info">
+                    <h1>100SMILES Dental Care</h1>
+                    <div>33 Fantail Street, Razole</div>
+                </div>
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="staff.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+                <div class="hamburger" onclick="hamburger()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </header>
+        <main class="container">
+            <h2>Contact Us</h2>
+            <div class="columns">
+                <div class="card" style ="flex:1">
+                    <h3>Get in Touch</h3>
+                    <img src="Images and Staff/AdobeStock_311198389.jpeg" class="contact-img">
+                    <p>100SMILES Dental Care<br>33 Faintail Street, Razole<br>Phone: <strong>07 5000 5599</strong><br>Fax: 07 4567 9999<br>Email: <a href="mailto:admin@100smilesdentalcare.com.au">admin@100smilesdentalcare.com.au</a></p>
+                    <h4>Opening Hours</h4>
+                    <p>Monday to Friday: 8:30am - 6:30pm<br>Saturday to Sunday: 8:30 am to 1:00 pm</p>
+                </div>
+                <div class="card" style="flex:1">
+                    <h3>Book an Appointment</h3>
+                    <form class="contact-form" 
+                          action="#"
+                          method="post"
+                          onsubmit="alert">
+                     <label>Name</label>
+                    <input type="text" name="name" required>
+                    <label>Email</label>
+                    <input type="email" name="email" required>
+                    <label>Phone</label>
+                    <input type="text" name="phone" required>
+                    <label>Message</label>
+                    <textarea name="message" rows="5" required></textarea>
+                    
+                    <button class="cta" type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            &copy; 100SMILES Dental Care
+        </footer>
+    <script src="script.js"></script>
+    </body>
+</html>
